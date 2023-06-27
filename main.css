@@ -1,0 +1,42 @@
+*{
+    background-color: rgba(240, 255, 255, 0.488);
+}
+
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    padding: 8px;
+    resize: none;
+    width: 100%;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 20px;
+    background: white;
+}
+
+button:hover{
+    border-style: dotted;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.campos input{
+    background-color: white;
+    margin: 15px;
+   
+}
+
+#mensagem{
+    margin: 20px 650px;
+    padding: 30px 50px;
+    background-color: rgba(22, 138, 246, 0.967);
+    display: none;
+    color: rgb(255, 247, 128);
+}
